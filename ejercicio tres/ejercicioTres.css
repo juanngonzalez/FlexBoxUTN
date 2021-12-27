@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.flexBox{
+    width: 1000px;
+    height: 250px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexBox div{
+    height: 250px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cuadroUno{
+    background-color:red;
+}
+#cuadroDos{
+    background-color:blue;
+}
+#cuadroTres{
+    background-color:green;
+}
